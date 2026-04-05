@@ -1,13 +1,70 @@
 /*
 
-filename: [your name]
+filename: [Hamnah]
 
-author: [your name]
+author: [Hamnah]
 
-created: [enter date]
+created: [03/04/2026]
 
-last modified: [enter date]
+last modified: [03/04/2026]
 
-description: [html files it refers to (if known)]
+description: [lab04.html]
 
 */
+
+h1 { 
+    color: black; 
+    font-size: 2em; 
+    font-weight: bold; 
+}
+
+* { 
+    font-family: calibri, sans-serif;
+    color: #2F4F4F
+
+}   
+
+aside, footer { font-style: italic; } 
+
+h1, h2, h3 {
+    font-family: arial, sans-serif;
+}
+
+table, th, td
+{
+    border: 1px solid black;     
+}
+
+#images {
+         text-align : center;  /* careful: center has US spelling */
+}
+
+#heading3 {
+    color: red;
+}
+
+.special {
+          color: darkorange;
+          font-weight:bold;
+         } 
+
+.rightallign{
+    text-align: right;
+}
+
+nav a {
+          text-decoration: none;
+          padding:0.2em 0.6em;
+          border: 4px solid #ccc;
+} 
+
+nav a:hover {
+          text-decoration: none;
+          padding:0.2em 0.6em;
+          background-color: lightblue;
+          border: 4px solid darkblue;
+} 
+
+aside:hover {
+    display: none;
+}
